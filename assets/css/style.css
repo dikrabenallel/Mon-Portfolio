@@ -719,14 +719,14 @@ a {
 .home-section .home-image .hi-icon-top {
   position: absolute;
   top: -60px;
-  right: -50px;
+  right: 5%;
   width: 90px;
   display: inline-block;
 }
 .home-section .home-image .hi-icon-bottom {
   position: absolute;
   bottom: -40px;
-  left: -50px;
+  left: 5%;
   width: 90px;
   display: inline-block;
 }
