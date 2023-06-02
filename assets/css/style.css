@@ -831,6 +831,38 @@ a {
   padding-top: 15px;
 }
 
+
+.container1{
+  width: 230px;
+  overflow: hidden;
+}
+.container1 .text1{
+  position: relative;
+  color: #000000;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.text1.sec-text:before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: var(--px-bg);
+  border-left: 2px solid #000000;
+  animation: animate 4s steps(12) infinite;
+}
+@keyframes animate{
+  40%, 60%{
+      left: calc(100% + 4px);
+  }
+  100%{
+      left: 0%;
+  }
+}
+
 /* Home Banner 02
 -------------------------------*/
 .home-section-02 {
